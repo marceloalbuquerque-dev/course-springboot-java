@@ -37,7 +37,7 @@ public class OrderItemPK implements Serializable{
 	public void setOrder(Order order) {
 		this.order = order;
 	}
-
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
